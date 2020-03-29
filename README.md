@@ -22,6 +22,8 @@ check-promql -host my-prometheus-server.com -port 9090 -critical 0.5 -warninig 0
 
 ### Build
 
+```
 git clone https://github.com/neuromobile/check-promql.git
 cd check-promql
 go build .
+```
