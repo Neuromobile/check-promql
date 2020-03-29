@@ -3,7 +3,7 @@ check-promql is a sensu check plugin that queries an Prometheus server and retur
 ### Running
 
 ```
-check-prom-query -host my-prometheus-server.com -port 9090 -critical 0.5 -warninig 0.3 -query 'container_cpu_usage_seconds_total{pod_name=~"my-pod"}'
+check-promql -host my-prometheus-server.com -port 9090 -critical 0.5 -warninig 0.3 -query 'container_cpu_usage_seconds_total{pod_name=~"my-pod"}'
 ```
 
 ### Execution options
